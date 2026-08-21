@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+
 import Jewelry from "../../assets/Jewelry.jpeg";
 import Fashion from "../../assets/Fashion.jpeg";
 import service from "../../assets/service.jpeg";
@@ -7,13 +8,13 @@ import bannerImg from "../../assets/bannerImg.jpeg";
 
 const Projects = () => {
     return (
-        <div id="Projects" className="p-10 md:p-24 text-white">
+        <div id="Projects" className="p-6 md:p-10 lg:p-24 text-white">
 
             <h1 className="text-2xl md:text-4xl text-white font-bold">
                 Projects
             </h1>
 
-            <div className="py-12 px-8 flex flex-nowrap gap-6 overflow-x-auto">
+            <div className="py-12 px-4 md:px-8 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
 
                 <ProjectCard
                     image={bannerImg}

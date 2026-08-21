@@ -2,10 +2,10 @@ import React from "react";
 
 const ProjectCard = ({ title, main, image, link }) => {
     return (
-        <div className="p-3 md:p-6 flex flex-col w-80 flex-shrink-0 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
+        <div className="p-3 md:p-6 flex flex-col w-full bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
 
             <img
-                className="p-4 rounded-lg h-90 w-full object-cover"
+                className="p-4 rounded-lg h-52 md:h-60 w-full object-cover"
                 src={image}
                 alt={title}
             />
@@ -28,6 +28,7 @@ const ProjectCard = ({ title, main, image, link }) => {
                     Live Project
                 </a>
             </div>
+
         </div>
     );
 };
