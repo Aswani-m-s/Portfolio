@@ -14,7 +14,7 @@ const ProjectCard = ({ title, main, image, link }) => {
                 {title}
             </h3>
 
-            <p className="px-4 py-2 flex-grow">
+            <p className="hidden lg:block px-4 py-2 flex-grow">
                 {main}
             </p>
 

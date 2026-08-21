@@ -14,7 +14,7 @@ const Projects = () => {
                 Projects
             </h1>
 
-            <div className="py-12 px-4 md:px-8 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+            <div className="py-12 px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
 
                 <ProjectCard
                     image={bannerImg}
